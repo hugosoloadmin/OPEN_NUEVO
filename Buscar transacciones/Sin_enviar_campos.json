@@ -60,7 +60,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/:consentId",
+					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
 					"protocol": "https",
 					"host": [
 						"rgw-of",
@@ -78,13 +78,7 @@
 						"agregation",
 						"v1",
 						"transactions",
-						":consentId"
-					],
-					"variable": [
-						{
-							"key": "consentId",
-							"value": ""
-						}
+						"1d34369f-a7aa-4383-a40c-a43ec4594841"
 					]
 				}
 			},
@@ -255,7 +249,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/:consentId",
+					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
 					"protocol": "https",
 					"host": [
 						"rgw-of",
@@ -273,13 +267,7 @@
 						"agregation",
 						"v1",
 						"transactions",
-						":consentId"
-					],
-					"variable": [
-						{
-							"key": "consentId",
-							"value": ""
-						}
+						"1d34369f-a7aa-4383-a40c-a43ec4594841"
 					]
 				}
 			},
@@ -440,8 +428,7 @@
 					},
 					{
 						"key": "x-fapi-auth-date",
-						"value": "2024-11-12T12:00:00",
-						"disabled": true
+						"value": "2024-11-12T12:00:00"
 					},
 					{
 						"key": "x-fapi-customer-ip",
@@ -449,7 +436,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/:consentId",
+					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
 					"protocol": "https",
 					"host": [
 						"rgw-of",
@@ -467,13 +454,7 @@
 						"agregation",
 						"v1",
 						"transactions",
-						":consentId"
-					],
-					"variable": [
-						{
-							"key": "consentId",
-							"value": ""
-						}
+						"1d34369f-a7aa-4383-a40c-a43ec4594841"
 					]
 				}
 			},
@@ -644,7 +625,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/:consentId",
+					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
 					"protocol": "https",
 					"host": [
 						"rgw-of",
@@ -662,13 +643,7 @@
 						"agregation",
 						"v1",
 						"transactions",
-						":consentId"
-					],
-					"variable": [
-						{
-							"key": "consentId",
-							"value": ""
-						}
+						"1d34369f-a7aa-4383-a40c-a43ec4594841"
 					]
 				}
 			},

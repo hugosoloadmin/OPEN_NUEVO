@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "aca0b1e4-3c8b-464d-8c02-4cd0add70a78",
+		"_postman_id": "44dbf596-9ba0-4e2a-b965-6f4c45d6e48c",
 		"name": "Header Transacciones",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/OPEN-FINANCE~929b071a-a749-416c-a177-8e1a553199fe/collection/29460625-aca0b1e4-3c8b-464d-8c02-4cd0add70a78?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/OPEN-FINANCE~929b071a-a749-416c-a177-8e1a553199fe/collection/29460625-44dbf596-9ba0-4e2a-b965-6f4c45d6e48c?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -62,7 +62,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/:consentId",
+					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
 					"protocol": "https",
 					"host": [
 						"rgw-of",
@@ -80,13 +80,7 @@
 						"agregation",
 						"v1",
 						"transactions",
-						":consentId"
-					],
-					"variable": [
-						{
-							"key": "consentId",
-							"value": ""
-						}
+						"1d34369f-a7aa-4383-a40c-a43ec4594841"
 					]
 				}
 			},
