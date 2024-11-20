@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "28e6f9a4-8eed-436f-9695-de2cb4e3cce1",
+		"_postman_id": "1d3806ba-4ad4-415e-9f05-039e3a252970",
 		"name": "Sin enviar campos en consultar consentimiento",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/OPEN-FINANCE~929b071a-a749-416c-a177-8e1a553199fe/collection/29460625-28e6f9a4-8eed-436f-9695-de2cb4e3cce1?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Finance-automatizacion~0b159870-f441-4137-ade7-cda25e7bab86/collection/29460625-1d3806ba-4ad4-415e-9f05-039e3a252970?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -60,25 +60,13 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
-					"protocol": "https",
+					"raw": "{{Url}}/transactions/{{consentId}}",
 					"host": [
-						"rgw-of",
-						"apps",
-						"awsprbcluo",
-						"awsocpprb",
-						"ach",
-						"interno",
-						"com",
-						"co"
+						"{{Url}}"
 					],
 					"path": [
-						"ach",
-						"pib",
-						"agregation",
-						"v1",
 						"transactions",
-						"1d34369f-a7aa-4383-a40c-a43ec4594841"
+						"{{consentId}}"
 					]
 				}
 			},
@@ -249,25 +237,13 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
-					"protocol": "https",
+					"raw": "{{Url}}/transactions/{{consentId}}",
 					"host": [
-						"rgw-of",
-						"apps",
-						"awsprbcluo",
-						"awsocpprb",
-						"ach",
-						"interno",
-						"com",
-						"co"
+						"{{Url}}"
 					],
 					"path": [
-						"ach",
-						"pib",
-						"agregation",
-						"v1",
 						"transactions",
-						"1d34369f-a7aa-4383-a40c-a43ec4594841"
+						"{{consentId}}"
 					]
 				}
 			},
@@ -436,25 +412,13 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
-					"protocol": "https",
+					"raw": "{{Url}}/transactions/{{consentId}}",
 					"host": [
-						"rgw-of",
-						"apps",
-						"awsprbcluo",
-						"awsocpprb",
-						"ach",
-						"interno",
-						"com",
-						"co"
+						"{{Url}}"
 					],
 					"path": [
-						"ach",
-						"pib",
-						"agregation",
-						"v1",
 						"transactions",
-						"1d34369f-a7aa-4383-a40c-a43ec4594841"
+						"{{consentId}}"
 					]
 				}
 			},
@@ -625,25 +589,13 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
-					"protocol": "https",
+					"raw": "{{Url}}/transactions/{{consentId}}",
 					"host": [
-						"rgw-of",
-						"apps",
-						"awsprbcluo",
-						"awsocpprb",
-						"ach",
-						"interno",
-						"com",
-						"co"
+						"{{Url}}"
 					],
 					"path": [
-						"ach",
-						"pib",
-						"agregation",
-						"v1",
 						"transactions",
-						"1d34369f-a7aa-4383-a40c-a43ec4594841"
+						"{{consentId}}"
 					]
 				}
 			},

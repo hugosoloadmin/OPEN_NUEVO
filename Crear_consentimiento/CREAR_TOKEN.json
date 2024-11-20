@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "3591e0cf-fa23-4a59-a764-9b09d795054f",
+		"_postman_id": "fbd1a1cc-ec7d-4b7e-a18d-4b11876cdcac",
 		"name": "Crear Token",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/OPEN-FINANCE~929b071a-a749-416c-a177-8e1a553199fe/collection/29460625-3591e0cf-fa23-4a59-a764-9b09d795054f?action=share&source=collection_link&creator=29460625"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/Finance-automatizacion~0b159870-f441-4137-ade7-cda25e7bab86/collection/29460625-fbd1a1cc-ec7d-4b7e-a18d-4b11876cdcac?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -71,22 +71,9 @@
 					]
 				},
 				"url": {
-					"raw": "https://internal-aws-prb-lb-opfback-238477373.us-east-1.elb.amazonaws.com:8446/realms/agregacion/protocol/openid-connect/token",
-					"protocol": "https",
+					"raw": "{{Base-url}}",
 					"host": [
-						"internal-aws-prb-lb-opfback-238477373",
-						"us-east-1",
-						"elb",
-						"amazonaws",
-						"com"
-					],
-					"port": "8446",
-					"path": [
-						"realms",
-						"agregacion",
-						"protocol",
-						"openid-connect",
-						"token"
+						"{{Base-url}}"
 					]
 				},
 				"description": "Generated from cURL: curl --location '\nhttps://agregacion.itac.co:8447/realms/agregacion/protocol/openid-connect/token'\n\\\n--header 'Content-Type: application/x-www-form-urlencoded' \\\n--header 'Cookie: 8c3c29440ccad7f932d0fc6703d6c5ab=8c040b0ecdbb695e815e9a648f8ad69c' \\\n--data-urlencode 'client_id=moniJWT' \\\n--data-urlencode 'client_assertion_type=urn:ietf:params:oauth:client-assertion-type:jwt-bearer' \\\n--data-urlencode 'grant_type=client_credentials' \\\n--data-urlencode 'scope=banks.read' \\\n--data-urlencode 'client_assertion=eyJraWQiOiI2NjRkY2U5Zi0zODI4LTQ3NmEtYTUyOC1lMTRkNGRjNWZhN2UiLCJhbGciOiJQUzI1NiJ9.eyJpYXQiOjE3Mjk4OTU4MjIsImlzcyI6Im1vbmlKV1QiLCJzdWIiOiJtb25pSldUIiwiYXVkIjoiaHR0cHM6Ly9hZ3JlZ2FjaW9uLml0YWMuY286ODQ0Ny9yZWFsbXMvYWdyZWdhY2lvbi9wcm90b2NvbC9vcGVuaWQtY29ubmVjdC90b2tlbiIsImV4cCI6NDEwMjQ0NDc5OSwianRpIjoiZGUwNmVmNmItZjlhZS00NGE2LWE1Y2UtNzIyOWJkZDMxNzdhIn0.Vdr6GBw3WWD5pSTIm9COHC7wZP6Zt54OlJKzpTXkmyNTXXtaeCFnqPz81eWNxIxgoRzyiLt0QaQ2qdi_prAEWUfYBMMR_rI8VlB9dzuM5EQLbXJq28K4VOMSET2PpEm14GA46iH1LD9phP0DlduZNweI0c7fWyWcMGb1q5xkkPxj4Cvx2i0gcKi-Vc8xjLiDO8Ic6AyWwx0-LmPu76yCUM7xz49ro7qSU4qFPSdeWtr-j8n_Vk9uyNkdDUOE-Th60c_OdJLjgDGCTPWgg9opXrbHvAexGq5xdBpW-TPm4IHbVd5BMJnJIFNpzjNw8Zl3M30lQhbOd5Ydeu9fEIGSFg'"

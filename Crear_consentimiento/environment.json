@@ -1,5 +1,5 @@
 {
-	"id": "331dd2d4-8ab5-4469-acf8-f72eb50e119d",
+	"id": "87b1a27f-4c15-4fb4-81ec-30d90851770b",
 	"name": "New Environment",
 	"values": [
 		{
@@ -13,9 +13,15 @@
 			"value": "",
 			"type": "default",
 			"enabled": true
+		},
+		{
+			"key": "consentId",
+			"value": "",
+			"type": "default",
+			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2024-11-16T15:38:13.484Z",
+	"_postman_exported_at": "2024-11-20T20:52:00.820Z",
 	"_postman_exported_using": "Postman/11.19.0"
 }

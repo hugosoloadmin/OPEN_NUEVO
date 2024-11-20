@@ -62,7 +62,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/1d34369f-a7aa-4383-a40c-a43ec4594841",
+					"raw": "https://rgw-of.apps.awsprbcluo.awsocpprb.ach.interno.com.co/ach/pib/agregation/v1/transactions/{{consentId}}",
 					"protocol": "https",
 					"host": [
 						"rgw-of",
@@ -80,7 +80,7 @@
 						"agregation",
 						"v1",
 						"transactions",
-						"1d34369f-a7aa-4383-a40c-a43ec4594841"
+						"{{consentId}}"
 					]
 				}
 			},

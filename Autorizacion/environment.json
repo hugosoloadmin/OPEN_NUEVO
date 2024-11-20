@@ -1,5 +1,5 @@
 {
-	"id": "331dd2d4-8ab5-4469-acf8-f72eb50e119d",
+	"id": "c0640b5e-5d2d-466f-9ef0-ca3198b41ade",
 	"name": "New Environment",
 	"values": [
 		{
@@ -7,15 +7,9 @@
 			"value": "",
 			"type": "default",
 			"enabled": true
-		},
-		{
-			"key": "$isoTimestamp",
-			"value": "",
-			"type": "default",
-			"enabled": true
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2024-11-16T15:38:13.484Z",
+	"_postman_exported_at": "2024-11-20T18:29:01.568Z",
 	"_postman_exported_using": "Postman/11.19.0"
 }
